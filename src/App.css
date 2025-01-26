@@ -1,0 +1,29 @@
+.vertical-swipeable-reels-container {
+  overflow: hidden;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.reel-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.reel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reel-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
