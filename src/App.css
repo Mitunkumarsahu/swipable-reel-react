@@ -1,6 +1,6 @@
 .vertical-swipeable-reels-container {
   overflow: hidden;
-  width: 100%;
+  width: 30%;
   height: 600px;
   position: relative;
 }
